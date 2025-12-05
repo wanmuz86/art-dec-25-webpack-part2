@@ -1,5 +1,6 @@
 import React, { lazy, Suspense } from 'react'
 import {createRoot} from 'react-dom/client';
+import './styles.css'
 
 const ComponentA = lazy(()=> import('./components/ComponentA'));
 const ComponentB = lazy(()=> import('./components/ComponentB'));
